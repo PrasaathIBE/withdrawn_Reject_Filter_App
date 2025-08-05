@@ -161,7 +161,8 @@ if uploaded_file:
         'copyright form received',
         'acceptance given by our team',
         'required reviews completed',
-        'under review - revised version (reviewer assigned by eic)'
+        'under review - revised version (reviewer assigned by eic)',
+        'revision given by our team'
     ]
 
     grouped = data_df.groupby('Reference_No')
